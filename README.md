@@ -6,7 +6,13 @@ This repository contains Jupyter notebooks demonstrating TensorFlow in Swift.
 
 ## Docker
 
-Coming soon.
+1. `docker run -t -i -p 8888:8888 --cap-add SYS_PTRACE gcr.io/swift-tensorflow/jupyter`
+2. It should print out a URL. Open it in your browser. You may have to fix up
+   the URL by replacing `(xxxxxxxxxxx or 127.0.0.1)` with `127.0.0.1`.
+3. In Jupyter, navigate to `swift-tutorials/iris/swift_tensorflow_tutorial.ipynb`.
+
+If you are curious, the [Dockerfile is in the swift-jupyter
+repository](https://github.com/google/swift-jupyter/tree/master/docker).
 
 ## Manual installation
 
