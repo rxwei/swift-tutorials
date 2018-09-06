@@ -21,9 +21,7 @@ Coming soon.
 
 Install the swift-jupyter kernel by following the "Installation Instructions
 With TensorFlow toolchain" in the
-[swift-jupyter readme](https://github.com/google/swift-jupyter). **The prebuilt
-toolchains as of 2018-08-31 are not compatible with the tutorial. Please wait.
-We will build new compatible toolchains shortly.**
+[swift-jupyter readme](https://github.com/google/swift-jupyter).
 
 ### Running
 
